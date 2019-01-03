@@ -15,8 +15,7 @@ class App extends Component {
 
     this.setState({
       value: event.target.value,
-      inputValue: event.target.value.split(""),
-      inputLength: lenInput
+      inputValue: event.target.value.split("")
     });
   }
 
